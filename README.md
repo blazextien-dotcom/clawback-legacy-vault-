@@ -1,36 +1,36 @@
 # Title
-Legacy Vault
+Clawback Legacy Vault
 
 # Description
-Clawback Legacy Vault addresses the problem of permanently lost crypto assets when users lose access to their private keys or pass away, as non-custodial systems provide no recovery mechanism or third-party intervention. This project uses a Soroban smart contract on Stellar to implement an automatic inheritance mechanism based on user inactivity: the owner deposits assets, sets a beneficiary and inactivity period, and maintains control through periodic ping transactions. If inactivity exceeds the defined timeout and grace period, the contract becomes claimable and the beneficiary can transfer all assets in a single transaction. The system operates entirely on-chain and evaluates inactivity rather than verifying death, ensuring a simple, secure, and trustless solution.
+Clawback Legacy Vault solves the problem of permanently lost crypto assets in non-custodial wallets. When users lose access to their private keys or pass away, their XLM/USDC are locked forever with no recovery mechanism. This project uses a Soroban smart contract on Stellar to implement an automatic inheritance system based on inactivity. The owner deposits assets, sets a beneficiary and timeout, and maintains control through periodic ping transactions. If inactivity exceeds the timeout and grace period, the beneficiary can claim all assets in a single transaction with permanent finality. The owner can cancel and reclaim funds before the claim stage. The system operates fully on-chain and evaluates inactivity rather than verifying death.
 
 # Project Vision
-The goal of this project is to provide a simple and secure on-chain inheritance mechanism for crypto assets, ensuring that funds are not permanently lost while maintaining full ownership control without relying on intermediaries.
+To provide a simple and secure on-chain inheritance solution for crypto assets, ensuring funds are not permanently lost while maintaining full ownership control without intermediaries.
 
 # Features
-- Deposit XLM/USDC into smart contract  
+- Deposit XLM/USDC into the smart contract  
 - Set beneficiary and inactivity timeout  
-- Ping to confirm activity  
+- Periodic ping to confirm activity  
 - Owner can cancel and withdraw funds before claim  
-- Automatic claim after inactivity  
+- Automatic transition to claimable state after inactivity  
 - Single transaction claim by beneficiary  
 - Fully on-chain execution  
 
 # Contract
-https://stellar.expert/explorer/testnet/contract/CAEMPURHF44WYGEZVXYLEO5CMECVFJBR24OBYTNL3Q2JXWUZCFSNNGX7?filter=history
+https://stellar.expert/explorer/testnet/contract/CAEMPURHF44WYGEZVXYLEO5CMECVFJBR24OBYTNL3Q2JXWUZCFSNNGX7?filter=history  
 
 Contract's screenshot:
-<img width="1913" height="899" alt="image" src="https://github.com/user-attachments/assets/c1147a7e-61f1-4272-a802-b5f559fb8e37" />
 
 
 # Future scopes
 - Support multiple beneficiaries  
-- Add simple user interface (UI)  
-- Add notification before timeout  
-- Improve security mechanisms  
+- Build simple web UI / frontend  
+- Add notification system before timeout  
+- Enhance security and audit  
+- Multi-token support  
 
 # Profile
-Name: Tien 
+Name: Tien  
 
 Skills:
 - Blockchain fundamentals  
