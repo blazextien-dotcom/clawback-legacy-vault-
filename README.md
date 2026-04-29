@@ -18,7 +18,10 @@ The goal of this project is to provide a simple and secure on-chain inheritance 
 
 # Contract
 https://stellar.expert/explorer/testnet/contract/CAEMPURHF44WYGEZVXYLEO5CMECVFJBR24OBYTNL3Q2JXWUZCFSNNGX7?filter=history
+
 Contract's screenshot:
+<img width="1913" height="899" alt="image" src="https://github.com/user-attachments/assets/c1147a7e-61f1-4272-a802-b5f559fb8e37" />
+
 
 # Future scopes
 - Support multiple beneficiaries  
