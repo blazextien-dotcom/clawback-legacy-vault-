@@ -20,6 +20,7 @@ To provide a simple and secure on-chain inheritance solution for crypto assets, 
 https://stellar.expert/explorer/testnet/contract/CAEMPURHF44WYGEZVXYLEO5CMECVFJBR24OBYTNL3Q2JXWUZCFSNNGX7?filter=history  
 
 Contract's screenshot:
+<img width="1906" height="900" alt="image" src="https://github.com/user-attachments/assets/64b3483f-22de-4268-bd23-0e207fc2f707" />
 
 
 # Future scopes
